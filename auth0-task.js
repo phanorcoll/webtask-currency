@@ -58,6 +58,11 @@ const slackCrypto = (context, callback) => {
                         title: "DolarToday EURO",
                         value: "Bs."+numeral(dolarTodayData.EUR.dolartoday).format('0,0.00'),
                         short: false
+                    },
+                    {
+                        title: "Para mas informacion visita",
+                        value: "http://www.mykurrencies.xyz",
+                        short: false
                     }
                 ]
             };
